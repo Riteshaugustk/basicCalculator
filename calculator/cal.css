@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+body {
+    background-color: rgb(28, 231, 221);
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 1.5%;
+    color: #fff;
+  }
+button {
+    padding: 25px;
+    color: rgb(17, 16, 16);
+    font-size: 1em;
+    cursor: pointer;
+    width: 70px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 2px;
+  }
+button:hover {
+    background-color: rgb(37, 35, 59);
+      color: #fff;
+}
+#dark-mode {
+    border: none;
+  background-color: rgb(41, 38, 38);
+  padding: 8px;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 200;
+
+}
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+#delete {
+  background-color: red;
+  border-radius: 2px solid whitesmoke;
+  margin-bottom: 2px;
+}
